@@ -1,0 +1,104 @@
+body {
+    background-color: #EFEFEF;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    font-size: 14px;
+}
+.wrapper {
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 7px auto;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0;
+margin: 16px;}
+.nav > li {
+    margin-left: 15px;
+    margin-right: 16px;
+}
+.nav > li > a {
+    text-decoration: none;
+    color: #333333;
+}
+.header {
+    background-color: #fff;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+padding-top: 21px;}
+.logo {
+    color: #66C05D;
+    font-size: 35px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+letter-spacing: 4px;}
+
+span {}
+.logo-image {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/logo.svg.svg);
+    margin-right: 21px;
+}
+
+.header-info span {
+   font-size: 16px; 
+}
+.header-info button {
+    font-size: 14px;
+    border-radius: 43px;
+    border: 2px solid #66C05D;
+    background-color: transparent;
+    padding: 10px 24px;
+    margin-left: 37px;
+}
+.header-bottom {
+    padding: 15px 0px;
+}
+.header-bottom .nav {
+    font-size: 16px;
+    margin: 9px;
+margin-left: 1px;}
+.header-bottom .nav > li {
+    
+margin-left: 24px;
+    margin-right: 17px;}
+hr {
+    border: none;
+    background-color: #EFEFEF;
+    height: 2px;
+}
+.banner {
+    background-image: url(../img/bg.png);
+    padding-top: 158px;
+    padding-bottom: 197px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color:#fff;
+}
+.title {
+    font-size: 48px;
+    font-weight: 700;
+margin-bottom: 39px;}
+.banner p {
+    margin-bottom: 56px;
+    max-width: 315px;
+line-height: 1.5;}
+.btn {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 43px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    padding: 9px 47px;
+}
